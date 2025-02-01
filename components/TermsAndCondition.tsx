@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
 	const [showAll, setShowAll] = useState(false);
 
 	return (
-		<div className="w-full max-w-4xl mx-auto pt-10 pb-10">
+		<div className="w-full max-w-4xl mx-auto pt-10 pb-10 px-6">
 			<h2 className="text-2xl font-bold">Terms and Conditions</h2>
 
 			<div className="space-y-6">
