@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
 	const [showAll, setShowAll] = useState(false);
 
 	return (
-		<div className="w-full max-w-4xl mx-auto pt-10 pb-10">
+		<div className="w-full max-w-4xl mx-auto pt-10 pb-10 px-8">
 			<h1 className="text-2xl font-bold">Privacy Policy</h1>
 
 			<div className="space-y-6">
