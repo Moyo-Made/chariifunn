@@ -21,7 +21,12 @@ const HowItWorks = () => {
 							<p className="text-gray-400 text-[35px]">1</p>
 						</div>
 						<div className="flex flex-col gap-2 justify-center items-center">
-							<iframe src="https://lottie.host/embed/45569efe-c03d-4a4d-a4bc-0c4186796663/cOqAXFp6TT.lottie" className="w-[60px] h-[60px] />
+							<iframe 
+        						src="https://lottie.host/embed/45569efe-c03d-4a4d-a4bc-0c4186796663/cOqAXFp6TT.lottie"
+        						className="w-full aspect-square"
+        						allowFullScreen
+        						allow="clipboard-write"
+     							/>
 							<h2 className="text-black text-[18px] md:[20px] font-semibold text-center">
 								Select your favorite cause
 							</h2>
@@ -94,7 +99,7 @@ const HowItWorks = () => {
 					</div>
 				</div>
 			</div>
-		
+		</div>
 	);
 };
 
