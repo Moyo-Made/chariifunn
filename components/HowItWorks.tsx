@@ -94,7 +94,7 @@ const HowItWorks = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	);
 };
 
