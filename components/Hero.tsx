@@ -1,4 +1,3 @@
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import React from "react";
 
 const Hero = () => {
@@ -24,9 +23,11 @@ const Hero = () => {
 				<div className="flex-1 ">
 					<div className="w-full relative right-12 md:right-0">
 
-					<DotLottieReact
-						src="/images/hero-image.lottie"
-						className="w-full h-full"
+					<iframe
+						src="https://lottie.host/embed/b128f358-e4bc-4ade-b05f-6c56daa91fc4/GgBCnJc5aZ.lottie"
+						 allowFullScreen
+        					allow="clipboard-write"
+						className="w-full h-full aspect-square"
 					/>
 					</div>
 				</div>
