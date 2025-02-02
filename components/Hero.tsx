@@ -27,7 +27,7 @@ const Hero = () => {
 						src="https://lottie.host/embed/b128f358-e4bc-4ade-b05f-6c56daa91fc4/GgBCnJc5aZ.lottie"
 						 allowFullScreen
         					allow="clipboard-write"
-						className="w-[900px] h-[900px] aspect-square"
+						className="w-[600px] h-[600px] aspect-square"
 					/>
 					</div>
 				</div>
