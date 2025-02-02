@@ -26,10 +26,7 @@ const Hero = () => {
 
 					<DotLottieReact
 						src="/images/hero-image.lottie"
-						alt="Hero Section Image"
-						className="w-full"
-						width={900}
-						height={900}
+						className="w-full h-full"
 					/>
 					</div>
 				</div>
