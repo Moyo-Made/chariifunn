@@ -23,7 +23,7 @@ const HowItWorks = () => {
 						<div className="flex flex-col gap-2 justify-center items-center">
 							<iframe 
         						src="https://lottie.host/embed/45569efe-c03d-4a4d-a4bc-0c4186796663/cOqAXFp6TT.lottie"
-        						className="w-full aspect-square"
+        						className="w-[60px] aspect-square"
         						allowFullScreen
         						allow="clipboard-write"
      							/>
