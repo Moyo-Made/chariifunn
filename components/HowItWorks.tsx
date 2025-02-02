@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const HowItWorks = () => {
@@ -45,12 +44,12 @@ const HowItWorks = () => {
 							<p className="text-gray-400 text-[35px]">2</p>
 						</div>
 						<div className="flex flex-col gap-2 justify-center items-center">
-							<Image
-								src="/icons/funds.svg"
-								alt="Heart"
-								width={60}
-								height={60}
-							/>
+							<iframe 
+        						src="https://lottie.host/embed/7dfe51c9-3472-4077-a756-0deea0af277c/AwK7DuKZTe.lottie"
+        						className="w-[60px] aspect-square"
+        						allowFullScreen
+        						allow="clipboard-write"
+     							/>
 							<h2 className="text-black text-[18px] md:[20px] font-semibold text-center">
 								Raise funds from friends
 							</h2>
@@ -69,7 +68,12 @@ const HowItWorks = () => {
 							<p className="text-gray-400 text-[35px]">3</p>
 						</div>
 						<div className="flex flex-col gap-2 justify-center items-center">
-							<Image src="/icons/prizes.svg" alt="Heart" width={60} height={60} />
+							<iframe 
+        						src="https://lottie.host/embed/4d627625-14f1-4e71-b2b8-310180fa7218/9NVvO28BEv.lottie"
+        						className="w-[60px] aspect-square"
+        						allowFullScreen
+        						allow="clipboard-write"
+     							/>
 							<h2 className="text-black text-[18px] md:[20px] font-semibold text-center">
 								Win big prizes
 							</h2>
@@ -88,7 +92,12 @@ const HowItWorks = () => {
 							<p className="text-gray-400 text-[35px]">4</p>
 						</div>
 						<div className="flex flex-col gap-2 justify-center items-center">
-							<Image src="/icons/earn.svg" alt="Heart" width={60} height={60} />
+							<iframe 
+        						src="https://lottie.host/embed/53d0e7c5-fdd5-4277-bd69-caedb9946677/TEInVAKXXt.lottie"
+        						className="w-[60px] aspect-square"
+        						allowFullScreen
+        						allow="clipboard-write"
+     							/>
 							<h2 className="text-black text-[18px] md:[20px] font-semibold text-center">
 								Earn while doing good
 							</h2>
