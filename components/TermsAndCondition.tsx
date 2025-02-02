@@ -10,7 +10,7 @@ const TermsAndConditions = () => {
 		<div className="w-full max-w-4xl mx-auto pt-10 pb-10 px-6">
 			<h2 className="text-2xl font-bold">Terms and Conditions</h2>
 
-			<div className="space-y-6">
+			<div className="space-y-6 px-6">
 				{termsData
 					.slice(0, showAll ? termsData.length : 9)
 					.map((term, index) => (
