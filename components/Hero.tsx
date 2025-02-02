@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
 	return (
-		<section className="bg-gray-100 pt-2 md:pt-20 pb-28 flex items-center">
+		<section className="bg-gray-100 pt-2 md:pt-8 pb-28 flex items-center">
 			<div className="max-w-6xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-8">
 				{/* Left Column */}
 				<div className="flex-1 text-center md:text-left pt-0 md:pt-32">
