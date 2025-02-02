@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import React from "react";
 
 const Hero = () => {
@@ -24,8 +24,8 @@ const Hero = () => {
 				<div className="flex-1 ">
 					<div className="w-full relative right-12 md:right-0">
 
-					<Image
-						src="/images/hero.svg"
+					<DotLottieReact
+						src="/images/hero-image.lottie"
 						alt="Hero Section Image"
 						className="w-full"
 						width={900}
