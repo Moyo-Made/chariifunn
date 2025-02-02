@@ -21,7 +21,7 @@ const HowItWorks = () => {
 							<p className="text-gray-400 text-[35px]">1</p>
 						</div>
 						<div className="flex flex-col gap-2 justify-center items-center">
-							<iframe src="https://lottie.host/embed/45569efe-c03d-4a4d-a4bc-0c4186796663/cOqAXFp6TT.lottie" alt="Heart" width={60} height={60} />
+							<iframe src="https://lottie.host/embed/45569efe-c03d-4a4d-a4bc-0c4186796663/cOqAXFp6TT.lottie" className="w-[60px] h-[60px] />
 							<h2 className="text-black text-[18px] md:[20px] font-semibold text-center">
 								Select your favorite cause
 							</h2>
