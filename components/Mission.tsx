@@ -23,25 +23,21 @@ const Mission = () => {
 					</p>
 				</div>
 
-				<Image
-					src="/images/mission.svg"
-					alt="Our mission"
-					width={350}
-					height={350}
-					priority
-					className="w-[250px] sm:w-[300px] md:w-[350px] h-[250px] sm:h-[300px] md:h-[350px] "
+				<iframe
+					src="https://lottie.host/embed/2b9d2ed4-cbcc-4af6-8993-980afbb09f29/E8iV0swXW9.lottie"
+					allowFullScreen
+        				allow="clipboard-write"
+					className="w-[250px] sm:w-[300px] md:w-[350px] h-[250px] sm:h-[300px] md:h-[350px]"
 				/>
 			</div>
 
 			{/* Partners */}
 			<div className="flex flex-col-reverse md:flex-row gap-1 md:gap-20 justify-center items-center pt-12">
-				<Image
-					src="/images/partners.svg"
-					alt="Our mission"
-					width={350}
-					height={350}
-					priority
-					className="w-[250px] sm:w-[300px] md:w-[350px] h-[250px] sm:h-[300px] md:h-[350px] "
+				<iframe
+					src="https://lottie.host/embed/597926fb-3f49-4984-8c6a-084e77f526dd/wiaBPXwPY8.lottie"
+					allowFullScreen
+        				allow="clipboard-write"
+					className="w-[250px] sm:w-[300px] md:w-[350px] h-[250px] sm:h-[300px] md:h-[350px]"
 				/>
 
 				<div>
