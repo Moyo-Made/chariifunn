@@ -8,7 +8,7 @@ import WhyChari from "@/components/WhyChari";
 
 const Page: React.FC = () => {
 	return (
-		<div>
+		<div className="bg-[#f7f7f7]">
 			<Hero />
 			<HowItWorks />
 			<WhyChari />
