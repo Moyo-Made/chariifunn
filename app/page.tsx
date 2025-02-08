@@ -4,16 +4,18 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Mission from "@/components/Mission";
 import WhyChari from "@/components/WhyChari";
+import FundraisingCard from "@/components/Fundraising";
 
 
 const Page: React.FC = () => {
 	return (
-		<div className="bg-[#f7f7f7]">
+		<div className="bg-[#fff]">
 			<Hero />
 			<HowItWorks />
+			<FundraisingCard />
 			<WhyChari />
-      <Mission />
-      <FAQ />
+      		<Mission />
+      		<FAQ />
 		</div>
 	);
 };
