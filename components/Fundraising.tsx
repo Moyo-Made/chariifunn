@@ -46,12 +46,12 @@ const FundraisingCard = () => {
           {/* Title and Subtext */}
           <div className="flex-1 pt-2 md:pt-3">
             <h3 className="text-base md:text-md font-bold mb-2">
-              Join Isabel's Journey to Conquer Cancer Together!
+              Join Isabel&#39;s Journey to Conquer Cancer Together!
             </h3>
             <p className="text-gray-400 text-xs md:text-sm">
-              Welcome to Isabel's Campaign for BC Cancer Foundation! We're
+              Welcome to Isabel&#39;s Campaign for BC Cancer Foundation! We&#39;re
               thrilled to have you join us in supporting this incredible cause.
-              Here's all the information you need to know about the contest
+              Here&#39;s all the information you need to know about the contest
               and...
             </p>
           </div>
