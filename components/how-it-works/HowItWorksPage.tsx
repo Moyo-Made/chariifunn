@@ -3,7 +3,7 @@ import HowItWorks from "../HowItWorks";
 
 const HowItWorksPage = () => {
 	return (
-		<div className="bg-gray-100 pt-10 md:pt-20 pb-20 flex flex-col justify-center items-center">
+		<div className="pt-10 md:pt-20 pb-20 flex flex-col justify-center items-center">
 			<HowItWorks />
 
 			<div className="mt-6">

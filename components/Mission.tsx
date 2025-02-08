@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
 	return (
-		<div className="bg-gray-100 mx-auto pt-24 pb-10">
+		<div className="bg-white mx-auto pt-24 pb-10">
 			{/* Mission */}
 			<div className="flex flex-col-reverse md:flex-row gap-3 md:gap-20 justify-center items-center ">
 				<div>
@@ -54,7 +54,7 @@ const Mission = () => {
 			</div>
 
 			<div className="mt-6 md:mt-1 mr-0 md:mr-24 flex justify-center items-center">
-				<button className="px-6 py-3 bg-[#ff9f1c] text-white font-semibold rounded-full hover:bg-[#ffa527] transition duration-300">
+				<button className="px-6 py-3 bg-[#ff9f1c] text-white font-semibold rounded-xl hover:bg-[#ffa527] transition duration-300">
 					Get in touch
 				</button>
 			</div>

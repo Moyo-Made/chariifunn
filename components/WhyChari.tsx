@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChari = () => {
 	return (
-		<div className="bg-gray-100 mx-auto pt-16">
+		<div className="mx-auto pt-16">
 			<h2 className="text-center text-[20px] sm:text-[20px] md:text-[30px] font-bold text-black">
 				Why Chari Fun?
 			</h2>

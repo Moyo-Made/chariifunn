@@ -9,8 +9,8 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<nav className="bg-[#f7f7f7]">
-			<div className="max-w-6xl mx-auto">
+		<nav className="bg-[#fff]">
+			<div className="max-w-6xl mx-auto pt-1 md:pt-4">
 				<div className="flex justify-between items-center h-[80px] py-5">
 					{/* Logo */}
 					<div className="flex-shrink-0">
@@ -29,21 +29,21 @@ const Navbar = () => {
 					<div className="hidden md:flex items-center space-x-8">
 						<Link
 							href="/"
-							className="text-[16px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
+							className="text-[16px] text-[#7B7B7B] font-semibold hover:text-[#ff9f1c] transition duration-300"
 						>
 							Explore
 						</Link>
 						<Link
 							href="/about"
-							className="text-[16px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
+							className="text-[16px] text-[#7B7B7B] font-semibold hover:text-[#ff9f1c] transition duration-300"
 						>
 							About
 						</Link>
 					</div>
 
 					{/* Desktop Buttons */}
-					<div className="hidden md:flex items-center space-x-4">
-						<button className="px-4 py-2 text-gray-800 font-semibold border border-[#ff9f1c] rounded-full hover:bg-[#ff9f1c] transition duration-300">
+					<div className="hidden md:flex items-center space-x-3 mr-0 md:mr-4 lg:mr-0">
+						<button className="px-4 py-2 text-gray-800 font-semibold rounded-full">
 							Login
 						</button>
 						<button className="px-4 py-2 bg-[#ff9f1c] text-white font-semibold rounded-full hover:bg-[#ffa527] transition duration-300">
@@ -55,7 +55,7 @@ const Navbar = () => {
 					<div className="md:hidden flex items-center">
 						<button
 							onClick={() => setIsOpen(!isOpen)}
-							className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none mr-4"
+							className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 focus:outline-none mr-4"
 						>
 							{isOpen ? (
 								<X className="h-6 w-6" />
@@ -69,24 +69,24 @@ const Navbar = () => {
 				{/* Mobile Navigation */}
 				{isOpen && (
 					<div className="md:hidden">
-						<div className="px-2 pt-2 pb-3 space-y-1">
+						<div className="px-2 pb-3 space-y-1 text-center mx-auto pt-6">
 							<Link
 								href="/"
-								className="block px-3 py-2 rounded-md text-gray-700 hover:text-[#ff9f1c] transition duration-300"
+								className="block px-3 py-2 rounded-md text-[#7B7B7B] hover:text-[#ff9f1c] transition duration-300"
 							>
 								Explore
 							</Link>
 							<Link
 								href="/about"
-								className="block px-3 py-2 rounded-md text-gray-700 hover:text-[#ff9f1c] transition duration-300"
+								className="block px-3 py-2 rounded-md text-[#7B7B7B] hover:text-[#ff9f1c] transition duration-300"
 							>
 								About
 							</Link>
-							<div className="flex flex-col space-y-3 mt-4">
-								<button className="px-4 py-2 text-gray-800 border border-[#ff9f1c] rounded-full hover:bg-[#df9e44] w-full text-center">
+							<div className="flex space-x-2 mt-4 justify-center items-center pt-8">
+								<button className="px-4 py-2 text-gray-800 text-center">
 									Login
 								</button>
-								<button className="px-4 py-2 bg-[#ff9f1c] text-white rounded-full hover:bg-[#ffa527] w-full text-center transition duration-300">
+								<button className="px-4 py-2 bg-[#ff9f1c] text-white rounded-full hover:bg-[#ffa527]  text-center transition duration-300">
 									Sign Up
 								</button>
 							</div>
