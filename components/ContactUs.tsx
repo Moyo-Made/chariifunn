@@ -4,7 +4,6 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Link from "next/link";
 import React from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { CiLocationOn } from "react-icons/ci";
 
 const ContactUs = () => {
   return (
