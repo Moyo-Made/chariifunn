@@ -7,14 +7,14 @@ import Image from "next/image";
 
 const Footer = () => {
 	return (
-		<footer className="bg-[#1B234A] text-white py-5 md:py-8">
+		<footer className="bg-[#1B234A] text-white py-5 md:py-6">
 			<div className="w-full max-w-6xl mx-auto px-4 md:px-6">
 				{/* Logo Section */}
 				<div className="flex justify-center md:justify-start mb-6 md:mb-9">
 					<Image
 						src="/images/footer-logo.png"
 						alt="ChariFun Logo"
-						className="w-36 md:w-48 h-auto"
+						className="w-48 md:w-64 h-auto"
 						width={144}
 						height={48}
 					/>
@@ -44,7 +44,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="/campaings"
+									href="/all-campaigns"
 									className="hover:text-white transition-colors duration-200"
 								>
 									All campaigns
@@ -83,7 +83,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="/"
+									href="/faq"
 									className="hover:text-white transition-colors duration-200"
 								>
 									FAQ

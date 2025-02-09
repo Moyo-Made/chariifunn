@@ -16,7 +16,7 @@ const FundraisingCard = () => {
           <p className="text-white/80 mt-1">Check out our campaigns</p>
         </div>
         <div className="flex-shrink-0">
-          <Link href="" className="flex items-center text-white pr-4 md:pr-8 lg:pr-16">
+          <Link href="/all-campaigns" className="flex items-center text-white pr-1 md:pr-8 lg:pr-16">
             <span>Show all</span>
             <ChevronRight className="ml-1 w-5 h-5" />
           </Link>
@@ -79,7 +79,7 @@ const FundraisingCard = () => {
                 height={8}
                 className="w-6 h-6 md:w-8 md:h-8 rounded-full"
               />
-              <span className="text-sm md:text-base">BC Cancer Foundation</span>
+              <Link href="https://charifun.com/train/10" className="text-sm md:text-base">BC Cancer Foundation</Link>
             </div>
             {/* Prize */}
             <div className="flex items-center gap-2">

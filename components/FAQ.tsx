@@ -10,7 +10,7 @@ import Link from "next/link";
 const FAQ = () => {
 	return (
 		<div className="mx-auto pb-20 pt-5 md:pt-10">
-			<div className="flex justify-between items-center mx-44">
+			<div className="flex justify-between items-center mx-8 md:mx-28 lg:mx-44">
 				<h2 className="text-center text-[20px] sm:text-[20px] md:text-[28px] font-bold text-black">
 					FAQ
 				</h2>
@@ -29,7 +29,7 @@ const FAQ = () => {
 					value="item-1"
 					className="mt-8 bg-[#f7f7f7] px-6 py-2 border-none rounded-xl"
 				>
-					<AccordionTrigger className="font-light text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
+					<AccordionTrigger className="font-light text-sm md:text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
 						What is LoveTrain ?
 					</AccordionTrigger>
 					<AccordionContent className="text-sm">
@@ -43,7 +43,7 @@ const FAQ = () => {
 					value="item-2"
 					className="bg-[#f7f7f7] px-6 py-2 border-none rounded-xl mt-3"
 				>
-					<AccordionTrigger className="font-light text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
+					<AccordionTrigger className="font-light text-sm md:text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
 						How does LoveTrain work?
 					</AccordionTrigger>
 					<AccordionContent className="text-sm">
@@ -58,7 +58,7 @@ const FAQ = () => {
 					value="item-3"
 					className="bg-[#f7f7f7] px-6 py-2 border-none rounded-xl mt-3"
 				>
-					<AccordionTrigger className="font-light text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
+					<AccordionTrigger className="font-light text-sm md:text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
 						Are there any rules for participating in LoveTrain?
 					</AccordionTrigger>
 					<AccordionContent className="text-sm">
@@ -76,7 +76,7 @@ const FAQ = () => {
 					value="item-4"
 					className="bg-[#f7f7f7] px-6 py-2 border-none rounded-xl mt-3"
 				>
-					<AccordionTrigger className="font-light text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
+					<AccordionTrigger className="font-light text-sm md:text-[16px] hover:no-underline hover:text-[#ff9f1c] transform duration-200">
 						Are there any deadlines or time limits?
 					</AccordionTrigger>
 					<AccordionContent className="text-sm">
