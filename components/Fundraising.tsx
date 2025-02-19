@@ -65,9 +65,9 @@ const FundraisingCard = () => {
               <Image
                 src="/icons/campaign-profile.webp"
                 alt="Profile"
-                width={8}
-                height={8}
-                className="w-6 h-6 md:w-8 md:h-8 rounded-full"
+                width={32}
+                height={32}
+                className="rounded-full"
               />
               <span className="text-sm md:text-base">Isabel</span>
             </div>
@@ -75,9 +75,9 @@ const FundraisingCard = () => {
               <Image
                 src="/icons/foundation-logo.webp"
                 alt=""
-                width={8}
-                height={8}
-                className="w-6 h-6 md:w-8 md:h-8 rounded-full"
+                width={32}
+                height={32}
+                className="rounded-full"
               />
               <Link href="https://charifun.com/train/10" className="text-sm md:text-base">BC Cancer Foundation</Link>
             </div>
