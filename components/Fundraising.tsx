@@ -63,7 +63,7 @@ const FundraisingCard = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-4 md:mb-6">
             <div className="flex items-center gap-2">
               <Image
-                src="/icons/campaign-profile.webp.crdownload"
+                src="/icons/campaign-profile.webp"
                 alt="Profile"
                 width={8}
                 height={8}
